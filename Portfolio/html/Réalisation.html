@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio MMI</title>
+  <link href="../CSS/Stylepage2.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Agbalumo&display=swap" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+
+<body>
+  
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="#" class="nav-logo">ONESTAS Saïna<span id="coloring">.</span></a>
+            </div>
+             <!-- Bouton hamburger -->
+            <div class="nav-toggle" id="nav-toggle">
+              <span class="burger-bar"></span>
+              <span class="burger-bar"></span>
+              <span class="burger-bar"></span>
+            </div>
+
+
+             <div class="nav-menu" id="nav-menu">
+                <ul class="nav-menu">
+                <li class="nav-item"><a href="Index.html" class="nav-link">Accueil</a></li>
+                <li class="nav-item"><a href="Index.html#about" class="nav-link">À propos</a></li>
+                
+                <li class="dropdown">
+                    <a href="Index.html#skills section" class="nav-link">Compétences</a>
+                    <ul class="dropdown-content">
+                    <li><a href="comprendre.html" class="nav-link">Comprendre</a></li>
+                    <li><a href="Concevoir.html" class="nav-link">Concevoir</a></li>
+                    <li><a href="Exprimer.html" class="nav-link">Exprimer</a></li>
+                    <li><a href="Developper.html" class="nav-link">Développer</a></li>
+                    <li><a href="Entreprendre.html" class="nav-link">Entreprendre</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item"><a href="Réalisation.html" class="nav-link">Portfolio</a></li>
+                <li class="nav-item"><a href="Index.html#contact" class="nav-link">Contact</a></li>
+                
+                </ul>
+
+            <div class="nav-toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
+
+    <script>
+  const toggle = document.getElementById('nav-toggle');
+  const menu = document.getElementById('nav-menu');
+
+  toggle.addEventListener('click', () => {
+    menu.classList.toggle('show');
+  });
+</script>
+
+
+    <section class="intro" id="intro-production">
+
+        <h1 class="title-background">Réalisations Divers</h1>
+
+
+          <section class="gallery-section" id="gallery-section">
+            <h2 class="titre">Ici sont regroupés divers travaux réalisés durant ma première année de BUT MMI, ainsi que mes projets personnels.</h2>
+          
+            <div class="row">
+                 <div class="column">
+                  <div class="content">
+                  <img src="https://i.postimg.cc/vB4dn6Ld/Ex-1-03.jpg" alt="Nature" style="width:100%">
+                    <h3>Appareil Photo</h3>
+                    <p>Photo prise avec mon téléphone, très peu modifiée, lumière naturelle.</p>
+                  </div>
+                </div>
+
+                <div class="column">
+                  <div class="content">
+                  <img src="https://i.postimg.cc/tTMMGSxK/EX-13-01-5.png" alt="affiche chanteur" style="width:100%">
+                    <h3>Photoshop</h3>
+                    <p>Affiche dans le style Suisse. Artiste choisi bbno$</p>
+                  </div>
+                </div>
+
+                <div class="column">
+                  <div class="content">
+                  <img src="https://i.postimg.cc/wBHKwGXF/EX-5-02-2-copie-petit.png" alt="Affiche film" style="width:100%">
+                    <h3>Photoshop</h3>
+                    <p>Premier projet Photoshop : création d'une affiche pour Harley Quinn dans le style de Saul Bass.</p>
+                  </div>
+                </div>
+                
+              <div class="column">
+                  <div class="content">
+                  <img src="https://i.postimg.cc/3JsQvRWs/exo7-01-5.png" alt="collage" style="width:100%">
+                    <h3>Photoshop</h3>
+                    <p>Expérimentation mêlant photographie et collage numérique, créant une hybridation visuelle.</p>
+                  </div>
+                </div>
+               
+                <div class="column">
+                  <div class="content">
+                  <img src="https://i.postimg.cc/gkHCLFTG/logo-peintre-EX6-1-5-couleur.png" alt="Logo" style="width:100%">
+                    <h3>Photoshop</h3>
+                    <p>Création d'un logo s'inspirant de l'esthétique d'Hokusai, maître de l'estampe japonaise.</p>
+                  </div>
+                </div>
+            </div>
+              
+              <div class="content">
+                <div class="grand">
+                    <img src="https://i.postimg.cc/52dDtRR1/EX-17-O1.png" alt="Bear" style="width:100%">
+                    <h3>Photoshop</h3>
+                    <p>Création d'une bannière web inspirée par l'univers graphique du street artiste INO.</p>
+                </div>
+              </div>
+          </section>
+        
+          </section>
+    </section>
+
+      <footer class="footer section">
+        <div class="footer-container bd-grid">
+            <div class="footer-data">
+                <h2 class="footer-title">ONESTAS Saïna</h2>
+                <p class="footer-text">Merci d'avoir visité mon Portfolio <span id="coloring">!</span></p>
+                <p class="copyright">©2025 - Tous droits réservés</p>
+            </div>
+            <div class="footer-section">
+                <h4>Navigation</h4>
+                <ul>
+                     <li><a href="Index.html">Accueil</a></li>
+                  <li><a href="Index.html#about">À propos</a></li>
+                  <li><a href="Index.html#skills section">Compétences</a></li>
+                  <li><a href="Réalisation.html">Portfolio</a></li>
+                  <li><a href="Index.html#contact">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h4>Suivez-moi</h4>
+                <div class="about-social">
+                        <a href="https://www.linkedin.com/in/saïna-onestas" class="about-social-icon" target="_blank">
+                            <i class='bx bxl-linkedin'></i>
+                        </a>
+                        <a href="https://www.instagram.com/onestas.saina?igsh=YmM2YnYxNXBudG15 " class="about-social-icon" target="_blank">
+                            <i class='bx bxl-instagram'></i>
+                        </a>
+                    </div>
+            </div>
+        </div>
+    </footer>
+
+            
+ 
+</body>
+</html>
